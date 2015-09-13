@@ -1,0 +1,42 @@
+{
+  "objectName" : "figurineshop",
+  "rarity" : "Rare",
+  "interactive" : true,
+  "scripts" : ["figurinerandomizer.lua"],
+  "printable" : false,
+  "description" : "A futuristic machine with a mechanical lever.",
+  "shortdescription" : "^blue;Figurine Holo Shop^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 800,
+  "lightColor" : [77, 103, 128],
+
+  "flickerPeriod" : 0.2,
+  "flickerMinIntensity" : 1.45,
+  "flickerMaxIntensity" : 1.5,
+  "flickerPeriodVariance" : 0.0,
+  "flickerIntensityVariance" : 0.0,
+
+  "apexDescription" : "I can exchange myseterious shells for neat statues here.",
+  "avianDescription" : "This will allow me to use my mysterious shells in return for some nice statues.",
+  "floranDescription" : "Floran collectsss figurines sssometimes!",
+  "glitchDescription" : "Statement. With this, I can get figurines for mysterious shells.",
+  "humanDescription" : "Cool, maybe I can get a Vaati figurine.",
+  "hylotlDescription" : "Making figurines is cool, I want some.",
+
+  "inventoryIcon" : "figurineshopicon.png",
+
+  "orientations" : [
+    {
+      "dualImage" : "figurineshop.png:<color>.<frame>",
+
+      "imagePosition" : [-8, -8],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
